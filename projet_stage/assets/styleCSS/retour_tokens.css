@@ -1,0 +1,60 @@
+.row{
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    margin:10px -90px 0px 0px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;    
+}
+#choixBrasserie{
+    width: 260px;
+    height: 100px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+#choixBrasserie label{
+    font-size: 30px;
+    margin:  auto;
+}
+.select{
+    width: 50px;
+    margin: -32px 0px 0px 200px;
+}
+#nbTokens{
+    font-size: 20px;
+    width: 70px;
+    margin: 20px 0px 0px 0px;
+}
+#nbrTokens{
+    width: 260px;
+    height: 200px;
+    background-color: #2A9FAF;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+#nbrTokens label{
+    font-size: 30px;
+    margin: 80px 0px 0px 30px;
+}
+#nbrTokens input{
+    width: 80px;
+    margin:0 10px 200px;
+}
+#btnRetourTokens{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+#btnRetourTokens button{
+    width: 160px;
+    height: 60px;
+    background-color: #22A127;
+    border-radius: 30px;
+    margin: 50px 0px 0px 20px;
+}

@@ -1,0 +1,176 @@
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;    
+}
+img{
+    width: 40%;
+    height: 40%;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+form{    
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    transform: scale(0.85);
+    width: 70%;
+    margin: 0 auto;      
+}
+label{
+    margin-left:300px;
+    margin-bottom:20px;
+    font-size: 25px;
+}
+
+input{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    margin-top: -20px;
+    background-color: #2A9FAF;
+    border-radius: 15px;
+}
+element.style{
+    margin-top: 20px;
+    margin-left: 1140px;
+}
+#button{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    height: 50px;
+    margin-top: 20px;
+    margin:20px auto;
+    border-radius: 20px;
+    background-color: #22A127;
+    text-align: center;
+}
+#button p{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+#button:hover{
+    background-color: #2A9FAF;
+}
+
+/* ###################-media-query-########################### */
+
+@media screen and (max-width:800px){
+    #logo{
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 60px;    
+    }
+    img{
+        width: 40%;
+        height: 40%;
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    form{    
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        transform: scale(0.85);
+        width: 70%;
+        margin: 0 auto;      
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+        margin:10px auto;
+        font-size: 20px;
+        text-align: center;
+    }
+    input{
+        width: 350px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        background-color: #2A9FAF;
+        border-radius: 15px;
+    }
+    #button{
+        display: flex;
+        flex-direction: column;
+        width: 190px;
+        height: 50px;        
+        margin: 50px auto;
+        border-radius: 20px;
+        background-color: #22A127;
+    }
+    
+}
+@media screen and (max-width:500px){
+    #logo{
+        width: 70px;
+        height: 70px;
+        margin-left: 170px;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 60px;    
+    }
+    img{
+        width: 20%;
+        height: 20%;
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    form{    
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        transform: scale(0.85);
+        width: 70%;
+        margin: 0 auto;      
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+        margin:10px auto;
+        font-size: 15px;
+    }
+    input{
+        width: 230px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        background-color: #2A9FAF;
+        border-radius: 15px;
+    }
+    .names{
+        margin-top: 20px;
+        margin-left: 140px;
+    }
+    .password{
+        margin-top: 20px;
+        margin-left: 170px;
+    }
+    #button{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 50px;        
+        margin:20px auto;
+        border-radius: 20px;
+        background-color: #22A127;
+    }
+}

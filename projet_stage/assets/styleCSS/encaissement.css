@@ -1,0 +1,540 @@
+#logo{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    margin:10px -90px 0px 0px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;    
+}
+#formule1{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    background-color: #E7EC00;
+    margin:20px 0 0 300px;
+    border-radius: 50%;
+}
+#formule1 p{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-top: 100px;
+}
+#formule2{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    background-color: #EE5A5A;
+    margin:20px 0 0 20px;
+    border-radius: 50%;
+}
+#formule2 p{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-top: 100px;
+}
+#formule3{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    background-color: #E7EC00;
+    margin:20px 0 0 300px;
+    border-radius: 50%;
+}
+#formule3 p{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-top: 100px;
+}
+#formule4{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    background-color: #EE5A5A;
+    margin:20px 0 0 20px;
+    border-radius: 50%;
+}
+#formule4 p{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-top: 100px;
+}
+#calculs{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 400px;
+    background-color: #D9D9D9;
+    margin: 20px auto;
+}
+ul{    
+    margin: 50px 0 0 10px;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 50px;
+    margin: 10px 0 0 10px;
+    background-color: #AFAFAF;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+li p{
+    margin: 10px auto;
+}
+#f1moins{
+    display: flex;
+    flex-direction: column;
+    margin:-230px 0 0 450px;
+}
+#f1plus{
+    display: flex;
+    flex-direction: column;
+    margin:-50px 0 0 520px;
+}
+#f2moins{
+    display: flex;
+    flex-direction: column;
+    margin:10px 0 0 450px;
+}
+#f2plus{
+    display: flex;
+    flex-direction: column;
+    margin:-50px 0 0 520px;
+}
+#f3moins{
+    display: flex;
+    flex-direction: column;
+    margin:10px 0 0 450px;
+}
+#f3plus{
+    display: flex;
+    flex-direction: column;
+    margin:-50px 0 0 520px;
+}
+#f4moins{
+    display: flex;
+    flex-direction: column;
+    margin:10px 0 0 450px;
+}
+#f4plus{
+    display: flex;
+    flex-direction: column;
+    margin:-50px 0 0 520px;
+}
+#total{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 0 -250px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+#btTokens{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 40px;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-color: #e70c0c;
+    
+}
+#btAnnuler{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 40px;
+    margin: 30px 0 0 100px;
+    border-radius: 20px;
+    background-color: #e70c0c;
+}
+#btSuivant{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 40px;
+    margin: -40px 0 0 900px;
+    border-radius: 20px;
+    background-color: #22A127;
+}
+button p{
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    font-size: larger;
+}
+/*##################MODE TABLETTE#################################*/
+@media screen and (max-width:800px){
+    #logo{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;    
+    }
+    #formule1{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        background-color: #E7EC00;
+        margin:20px 0 0 140px;
+        border-radius: 50%;
+    }
+    #formule1 p{
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        margin-top: 90px;
+    }
+    #formule2{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        background-color: #EE5A5A;
+        margin:20px 0 0 20px;
+        border-radius: 50%;
+    }
+    #formule2 p{
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        margin-top: 90px;
+    }
+    #formule3{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        background-color: #E7EC00;
+        margin:20px 0 0 140px;
+        border-radius: 50%;
+    }
+    #formule3 p{
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        margin-top: 90px;
+    }
+    #formule4{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        background-color: #EE5A5A;
+        margin:20px 0 0 20px;
+        border-radius: 50%;
+    }
+    #formule4 p{
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        margin-top: 90px;
+    }
+    #calculs{
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        height: 400px;
+        background-color: #D9D9D9;
+        margin: 20px auto;
+    }
+    ul{    
+        margin: 50px 0 0 10px;
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 50px;
+        margin: 10px 0 0 10px;
+        background-color: #AFAFAF;
+        border-radius: 15px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    li p{
+        margin: 10px auto;
+    }
+    #f1moins{
+        display: flex;
+        flex-direction: column;
+        margin:-230px 0 0 450px;
+    }
+    #f1plus{
+        display: flex;
+        flex-direction: column;
+        margin:-50px 0 0 520px;
+    }
+    #f2moins{
+        display: flex;
+        flex-direction: column;
+        margin:10px 0 0 450px;
+    }
+    #f2plus{
+        display: flex;
+        flex-direction: column;
+        margin:-50px 0 0 520px;
+    }
+    #f3moins{
+        display: flex;
+        flex-direction: column;
+        margin:10px 0 0 450px;
+    }
+    #f3plus{
+        display: flex;
+        flex-direction: column;
+        margin:-50px 0 0 520px;
+    }
+    #f4moins{
+        display: flex;
+        flex-direction: column;
+        margin:10px 0 0 450px;
+    }
+    #f4plus{
+        display: flex;
+        flex-direction: column;
+        margin:-50px 0 0 520px;
+    }
+    #total{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0 0 -250px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 30px;
+    }
+    #btTokens{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 40px;
+        margin: 50px auto;
+        border-radius: 20px;
+        background-color: #e70c0c;
+        
+    }
+    #btAnnuler{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 40px;
+        margin: -20px 0 0 55px;
+        border-radius: 20px;
+        background-color: #e70c0c;
+    }
+    #btSuivant{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 40px;
+        margin: -40px 0 0 500px;
+        border-radius: 20px;
+        background-color: #22A127;
+    }
+    button p{
+        display: flex;
+        flex-direction: column;
+        margin: 5px auto;
+        font-size: larger;
+    }
+}
+/*#######################MODE TELEPHONE########################*/
+@media screen and (max-width:500px){
+    #logo{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;    
+    }
+    #formule1{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 150px;
+        background-color: #E7EC00;
+        margin:20px 0 0 50px;
+        border-radius: 50%;
+    }
+    #formule1 p{
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        margin-top: 55px;
+    }
+    #formule2{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 150px;
+        background-color: #EE5A5A;
+        margin:20px 0 0 20px;
+        border-radius: 50%;
+    }
+    #formule2 p{
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        margin-top: 55px;
+    }
+    #formule3{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 150px;
+        background-color: #E7EC00;
+        margin:20px 0 0 50px;
+        border-radius: 50%;
+    }
+    #formule3 p{
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        margin-top: 55px;
+    }
+    #formule4{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 150px;
+        background-color: #EE5A5A;
+        margin:20px 0 0 20px;
+        border-radius: 50%;
+    }
+    #formule4 p{
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        margin-top: 55px;
+    }
+    #calculs{
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        height: 400px;
+        background-color: #D9D9D9;
+        margin: 20px auto;
+    }
+    ul{    
+        margin: 50px 0 0 10px;
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 50px;
+        margin: 10px 0 0 -70px;
+        background-color: #AFAFAF;
+        border-radius: 15px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    li p{
+        margin: 10px auto;
+    }
+    #f1moins{
+        display: flex;
+        flex-direction: column;
+        margin:-230px 0 0 200px;
+    }
+    #f1plus{
+        display: flex;
+        flex-direction: column;
+        margin:-50px 0 0 270px;
+    }
+    #f2moins{
+        display: flex;
+        flex-direction: column;
+        margin:10px 0 0 200px;
+    }
+    #f2plus{
+        display: flex;
+        flex-direction: column;
+        margin:-50px 0 0 270px;
+    }
+    #f3moins{
+        display: flex;
+        flex-direction: column;
+        margin:10px 0 0 200px;
+    }
+    #f3plus{
+        display: flex;
+        flex-direction: column;
+        margin:-50px 0 0 270px;
+    }
+    #f4moins{
+        display: flex;
+        flex-direction: column;
+        margin:10px 0 0 200px;
+    }
+    #f4plus{
+        display: flex;
+        flex-direction: column;
+        margin:-50px 0 0 270px;
+    }
+    #total{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0 0 -250px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 30px;
+    }
+    #btTokens{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 40px;
+        margin: 50px auto;
+        border-radius: 20px;
+        background-color: #e70c0c;
+        
+    }
+    #btAnnuler{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 40px;
+        margin: -20px 0 20px 20px;
+        border-radius: 20px;
+        background-color: #e70c0c;
+    }
+    #btSuivant{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 40px;
+        margin: -60px 0 0 230px;
+        border-radius: 20px;
+        background-color: #22A127;
+    }
+    button p{
+        display: flex;
+        flex-direction: column;
+        margin: 5px auto;
+        font-size: larger;
+    }
+}
